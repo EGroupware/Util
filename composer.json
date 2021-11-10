@@ -50,8 +50,6 @@
         "pear-horde/Horde_Util": "2.*"
     },
     "autoload": {
-        "psr-0": {
-            "Horde_Util": "lib/"
-        }
+	"classmap": ["lib/"]
     }
 }
