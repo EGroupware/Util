@@ -21,7 +21,7 @@
             "role": "developer"
         }
     ],
-    "version": "2.5.10",
+    "version": "2.6.1",
     "time": "2017-11-11",
     "repositories": [
         {
@@ -30,7 +30,7 @@
         }
     ],
     "require": {
-        "php": "^5.3 || ^7",
+        "php": "^5.3 || ^7 || ^8",
         "ext-dom": "*"
     },
     "suggest": {
@@ -46,6 +46,7 @@
     },
     "replace": {
         "pear-pear.horde.org/Horde_Util": "*",
+        "pear-pear.horde.org/horde_util": "*",
         "pear-horde/Horde_Util": "2.*"
     },
     "autoload": {
