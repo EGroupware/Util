@@ -1,5 +1,5 @@
 {
-    "name": "horde/util",
+    "name": "egroupware/util",
     "description": "Utility library",
     "type": "library",
     "homepage": "https://www.horde.org/libraries/Horde_Util",
@@ -21,7 +21,7 @@
             "role": "developer"
         }
     ],
-    "version": "2.5.9",
+    "version": "2.5.10",
     "time": "2017-11-11",
     "repositories": [
         {
@@ -45,7 +45,7 @@
         "ext-xml": "*"
     },
     "replace": {
-        "pear-pear.horde.org/Horde_Util": "2.*",
+        "pear-pear.horde.org/Horde_Util": "*",
         "pear-horde/Horde_Util": "2.*"
     },
     "autoload": {
